@@ -4,3 +4,42 @@
 :root {
     --global-font-family-primary: "Oswald";
 }
+
+/* SDK Document */
+vd-document::part(display_message_container) {
+    background-color: #eb3d1e;
+  }
+  
+  vd-document::part(display_message_text) {
+    color: #ffffff;
+  }
+  
+  vd-document::part(head_steps) {
+    color: #ffffff;
+  }
+  
+  /* SDK Selfie */
+  vd-selfie::part(display_message_container) {
+    background-color: #eb3d1e;
+  }
+  
+  vd-selfie::part(display_message_text) {
+    color: #ffffff;
+  }
+  
+  vd-selfie::part(head_steps) {
+    color: #ffffff;
+  }
+  
+  /* SDK Video */
+  vd-video::part(display_message_container) {
+    background-color: #eb3d1e;
+  }
+  
+  vd-video::part(display_message_text) {
+    color: #ffffff;
+  }
+  
+  vd-video::part(head_steps) {
+    color: #ffffff;
+  }
