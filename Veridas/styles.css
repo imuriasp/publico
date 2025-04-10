@@ -4,22 +4,22 @@
 
 @font-face {
   font-family: 'AvantGardeGothicITCW01Bk';
-  src: url('https://cdn.jsdelivr.net/gh/imuriasp/publico@main/fonts/38F797_3_0.eot');
-  src: url('https://cdn.jsdelivr.net/gh/imuriasp/publico@main/fonts/38F797_3_0.eot?#iefix') format('embedded-opentype'),
-      url('https://cdn.jsdelivr.net/gh/imuriasp/publico@main/fonts/38F797_3_0.woff2') format('woff2'),
-      url('https://cdn.jsdelivr.net/gh/imuriasp/publico@main/fonts/38F797_3_0.woff') format('woff'),
-      url('https://cdn.jsdelivr.net/gh/imuriasp/publico@main/fonts/38F797_3_0.ttf') format('truetype'),
-      url('https://cdn.jsdelivr.net/gh/imuriasp/publico@main/fonts/38F797_3_0.svg#wf') format('svg');
+  src: url('https://cdn.jsdelivr.net/gh/imuriasp/publico@main/Veridas/fonts/38F797_3_0.eot');
+  src: url('https://cdn.jsdelivr.net/gh/imuriasp/publico@main/Veridas/fonts/38F797_3_0.eot?#iefix') format('embedded-opentype'),
+      url('https://cdn.jsdelivr.net/gh/imuriasp/publico@main/Veridas/fonts/38F797_3_0.woff2') format('woff2'),
+      url('https://cdn.jsdelivr.net/gh/imuriasp/publico@main/Veridas/fonts/38F797_3_0.woff') format('woff'),
+      url('https://cdn.jsdelivr.net/gh/imuriasp/publico@main/Veridas/fonts/38F797_3_0.ttf') format('truetype'),
+      url('https://cdn.jsdelivr.net/gh/imuriasp/publico@main/Veridas/fonts/38F797_3_0.svg#wf') format('svg');
   font-display: swap
 }
 @font-face {
   font-family: 'AvantGardeGothicITCW02Dm';
-  src: url('https://cdn.jsdelivr.net/gh/imuriasp/publico@main/fonts/38F797_7_0.eot');
-  src: url('https://cdn.jsdelivr.net/gh/imuriasp/publico@main/fonts/38F797_7_0.eot?#iefix') format('embedded-opentype'),
-      url('https://cdn.jsdelivr.net/gh/imuriasp/publico@main/fonts/38F797_7_0.woff2') format('woff2'),
-      url('https://cdn.jsdelivr.net/gh/imuriasp/publico@main/fonts/38F797_7_0.woff') format('woff'),
-      url('https://cdn.jsdelivr.net/gh/imuriasp/publico@main/fonts/38F797_7_0.ttf') format('truetype'),
-      url('https://cdn.jsdelivr.net/gh/imuriasp/publico@main/fonts/38F797_7_0.svg#wf') format('svg');
+  src: url('https://cdn.jsdelivr.net/gh/imuriasp/publico@main/Veridas/fonts/38F797_7_0.eot');
+  src: url('https://cdn.jsdelivr.net/gh/imuriasp/publico@main/Veridas/fonts/38F797_7_0.eot?#iefix') format('embedded-opentype'),
+      url('https://cdn.jsdelivr.net/gh/imuriasp/publico@main/Veridas/fonts/38F797_7_0.woff2') format('woff2'),
+      url('https://cdn.jsdelivr.net/gh/imuriasp/publico@main/Veridas/fonts/38F797_7_0.woff') format('woff'),
+      url('https://cdn.jsdelivr.net/gh/imuriasp/publico@main/Veridas/fonts/38F797_7_0.ttf') format('truetype'),
+      url('https://cdn.jsdelivr.net/gh/imuriasp/publico@main/Veridas/fonts/38F797_7_0.svg#wf') format('svg');
   font-display: swap
 }
 
