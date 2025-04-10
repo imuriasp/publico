@@ -1,0 +1,68 @@
+/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+
+@font-face {
+  font-family: 'AvantGardeGothicITCW01Bk';
+  src:  url('https://cdn.jsdelivr.net/gh/imuriasp/publico@main/Veridas/fonts/38F797_3_0.woff2') format('woff2'),
+        url('https://cdn.jsdelivr.net/gh/imuriasp/publico@main/Veridas/fonts/38F797_3_0.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'AvantGardeGothicITCW02Dm';
+  src:  url('https://cdn.jsdelivr.net/gh/imuriasp/publico@main/Veridas/fonts/38F797_7_0.woff2') format('woff2'),
+        url('https://cdn.jsdelivr.net/gh/imuriasp/publico@main/Veridas/fonts/38F797_7_0.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+:root {
+  --global-font-family-primary: "AvantGardeGothicITCW01Bk";
+  --global-font-family-secondary: "AvantGardeGothicITCW02Dm";
+  --layout-background-color: red;
+  /* sombra btns */
+  --global-elevation-level-02: 0;
+  --global-elevation-level-04: 0;
+}
+
+/* SDK Document */
+vd-document::part(display_message_container) {
+    background-color: #eb3d1e;
+  }
+  
+  vd-document::part(display_message_text) {
+    color: #ffffff;
+  }
+  
+  vd-document::part(head_steps) {
+    color: #ffffff;
+  }
+  
+  /* SDK Selfie */
+  vd-selfie::part(display_message_container) {
+    background-color: #eb3d1e;
+  }
+  
+  vd-selfie::part(display_message_text) {
+    color: #ffffff;
+  }
+  
+  vd-selfie::part(head_steps) {
+    color: #ffffff;
+  }
+  
+  /* SDK Video */
+  vd-video::part(display_message_container) {
+    background-color: #eb3d1e;
+  }
+  
+  vd-video::part(display_message_text) {
+    color: #ffffff;
+  }
+  
+  vd-video::part(head_steps) {
+    color: #ffffff;
+  }
