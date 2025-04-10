@@ -24,8 +24,8 @@
 }
 
 :root {
-  --global-font-family-primary: "AvantGardeGothicITCW01Bk",arial,sans-serif;
-  --global-font-family-secondary: "AvantGardeGothicITCW02Dm",arial,sans-serif;
+  --global-font-family-primary: "AvantGardeGothicITCW01Bk";
+  --global-font-family-secondary: "AvantGardeGothicITCW02Dm";
 }
 
 /* SDK Document */
