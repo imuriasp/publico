@@ -10,7 +10,6 @@
       url('https://cdn.jsdelivr.net/gh/imuriasp/publico@main/Veridas/fonts/38F797_3_0.woff') format('woff'),
       url('https://cdn.jsdelivr.net/gh/imuriasp/publico@main/Veridas/fonts/38F797_3_0.ttf') format('truetype'),
       url('https://cdn.jsdelivr.net/gh/imuriasp/publico@main/Veridas/fonts/38F797_3_0.svg#wf') format('svg');
-  font-display: swap
 }
 @font-face {
   font-family: 'AvantGardeGothicITCW02Dm';
@@ -20,7 +19,6 @@
       url('https://cdn.jsdelivr.net/gh/imuriasp/publico@main/Veridas/fonts/38F797_7_0.woff') format('woff'),
       url('https://cdn.jsdelivr.net/gh/imuriasp/publico@main/Veridas/fonts/38F797_7_0.ttf') format('truetype'),
       url('https://cdn.jsdelivr.net/gh/imuriasp/publico@main/Veridas/fonts/38F797_7_0.svg#wf') format('svg');
-  font-display: swap
 }
 
 :root {
