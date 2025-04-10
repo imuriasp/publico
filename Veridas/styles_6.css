@@ -20,6 +20,7 @@
 }
 
 :root {
+  --color-primary-dark: ;
   --global-font-family-primary: "AvantGardeGothicITCW01Bk";
   --global-font-family-secondary: "AvantGardeGothicITCW02Dm";
   --layout-background-color: transparent;
@@ -34,19 +35,18 @@
     --specific-color-interactive-secondary-background-hover: #F9B000; /* fondo */
     --secondary-button-hover-border-color: #00242E; /* borde */
     --global-elevation-level-04: 0px 0px 0px 1px #00242E; /* sombra */
+    /* active */
+    --global-elevation-level-01: 0px 0px 0px 1px #D9D9D9; /* sombra */
 }
 
-h1.text {
-  background: red !important;
+vd-feedback::part(feedback) {
+  background-color: #eb3d1e;
+}
+.box-container {
+  background-color: blue;
 }
 
-vd-layout::part(shadow-root) {
-  background: blue !important;
 
-}
-vd-flex::part(shadow-root) {
-  background-color: #00242E !important;
-}
 
 
 
