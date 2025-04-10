@@ -23,11 +23,21 @@
   --global-font-family-primary: "AvantGardeGothicITCW01Bk";
   --global-font-family-secondary: "AvantGardeGothicITCW02Dm";
   --layout-background-color: transparent;
-  /* sombra btns */
-  --global-elevation-level-02: 0;
-  --global-elevation-level-04: 0;
+
   /* border color */
   --layout-frame-color: transparent;
+
+  /* botons */
+  --global-elevation-level-02: 0;/* sombra */
+  --global-style-border-radius-3: 4px;
+    /* hover */
+    --specific-color-interactive-secondary-background-hover: #F9B000; /* fondo */
+    --secondary-button-hover-border-color: #00242E; /* borde */
+    --global-elevation-level-04: 0px 0px 0px 1px #00242E; /* sombra */
+}
+
+vd-flex h1.text {
+  background: red !important;
 }
 
 /* SDK Document */
