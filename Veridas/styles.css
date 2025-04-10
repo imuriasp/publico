@@ -1,8 +1,31 @@
-/* You can add global styles to this file, and also import other style files */
+/* You can add global styles to this file, and also import other style files 
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+*/
+
+@font-face {
+  font-family: 'AvantGardeGothicITCW01Bk';
+  src: url('https://cdn.jsdelivr.net/gh/imuriasp/publico@main/fonts/38F797_3_0.eot');
+  src: url('https://cdn.jsdelivr.net/gh/imuriasp/publico@main/fonts/38F797_3_0.eot?#iefix') format('embedded-opentype'),
+      url('https://cdn.jsdelivr.net/gh/imuriasp/publico@main/fonts/38F797_3_0.woff2') format('woff2'),
+      url('https://cdn.jsdelivr.net/gh/imuriasp/publico@main/fonts/38F797_3_0.woff') format('woff'),
+      url('https://cdn.jsdelivr.net/gh/imuriasp/publico@main/fonts/38F797_3_0.ttf') format('truetype'),
+      url('https://cdn.jsdelivr.net/gh/imuriasp/publico@main/fonts/38F797_3_0.svg#wf') format('svg');
+  font-display: swap
+}
+@font-face {
+  font-family: 'AvantGardeGothicITCW02Dm';
+  src: url('https://cdn.jsdelivr.net/gh/imuriasp/publico@main/fonts/38F797_7_0.eot');
+  src: url('https://cdn.jsdelivr.net/gh/imuriasp/publico@main/fonts/38F797_7_0.eot?#iefix') format('embedded-opentype'),
+      url('https://cdn.jsdelivr.net/gh/imuriasp/publico@main/fonts/38F797_7_0.woff2') format('woff2'),
+      url('https://cdn.jsdelivr.net/gh/imuriasp/publico@main/fonts/38F797_7_0.woff') format('woff'),
+      url('https://cdn.jsdelivr.net/gh/imuriasp/publico@main/fonts/38F797_7_0.ttf') format('truetype'),
+      url('https://cdn.jsdelivr.net/gh/imuriasp/publico@main/fonts/38F797_7_0.svg#wf') format('svg');
+  font-display: swap
+}
 
 :root {
-    --global-font-family-primary: "Oswald";
+  --global-font-family-primary: "AvantGardeGothicITCW01Bk",arial,sans-serif;
+  --global-font-family-secondary: "AvantGardeGothicITCW02Dm",arial,sans-serif;
 }
 
 /* SDK Document */
