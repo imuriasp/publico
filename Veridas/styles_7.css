@@ -20,11 +20,12 @@
 }
 
 :root {
-  --color-primary-dark: ;
   --global-font-family-primary: "AvantGardeGothicITCW01Bk";
   --global-font-family-secondary: "AvantGardeGothicITCW02Dm";
   --layout-background-color: transparent;
   --specific-color-content-dark: #383838;
+
+  --global-spacing-size-15: 0;/* padding */
   /* border color */
   --layout-frame-color: transparent;
 
@@ -39,6 +40,14 @@
     --global-elevation-level-01: 0px 0px 0px 1px #D9D9D9; /* sombra */
 }
 
+:host {
+  border: 2px solid red;
+}
+
+
+vd-flex {
+  background-color: green;
+}
 vd-feedback::part(feedback) {
   background-color: #eb3d1e;
 }
