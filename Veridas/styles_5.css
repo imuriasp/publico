@@ -23,7 +23,7 @@
   --global-font-family-primary: "AvantGardeGothicITCW01Bk";
   --global-font-family-secondary: "AvantGardeGothicITCW02Dm";
   --layout-background-color: transparent;
-
+  --specific-color-content-dark: #383838;
   /* border color */
   --layout-frame-color: transparent;
 
@@ -36,9 +36,19 @@
     --global-elevation-level-04: 0px 0px 0px 1px #00242E; /* sombra */
 }
 
-vd-flex h1.text {
+h1.text {
   background: red !important;
 }
+
+vd-layout::part(shadow-root) {
+  background: blue !important;
+
+}
+vd-flex::part(shadow-root) {
+  background-color: #00242E !important;
+}
+
+
 
 /* SDK Document */
 vd-document::part(display_message_container) {
