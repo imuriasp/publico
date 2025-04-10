@@ -4,6 +4,7 @@
 
 :root {
   --global-font-family-primary: "Oswald";
+  --layout-background-color: green;
 }
 
 /* SDK Document */
