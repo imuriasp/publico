@@ -1,28 +1,26 @@
-/* You can add global styles to this file, and also import other style files 
+/* You can add global styles to this file, and also import other style files */
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
-*/
+
 
 @font-face {
   font-family: 'AvantGardeGothicITCW01Bk';
-  src: url('https://cdn.jsdelivr.net/gh/imuriasp/publico@main/Veridas/fonts/38F797_3_0.eot');
-  src: url('https://cdn.jsdelivr.net/gh/imuriasp/publico@main/Veridas/fonts/38F797_3_0.eot?#iefix') format('embedded-opentype'),
-      url('https://cdn.jsdelivr.net/gh/imuriasp/publico@main/Veridas/fonts/38F797_3_0.woff2') format('woff2'),
-      url('https://cdn.jsdelivr.net/gh/imuriasp/publico@main/Veridas/fonts/38F797_3_0.woff') format('woff'),
-      url('https://cdn.jsdelivr.net/gh/imuriasp/publico@main/Veridas/fonts/38F797_3_0.ttf') format('truetype'),
-      url('https://cdn.jsdelivr.net/gh/imuriasp/publico@main/Veridas/fonts/38F797_3_0.svg#wf') format('svg');
+  src:  url('https://cdn.jsdelivr.net/gh/imuriasp/publico@main/Veridas/fonts/38F797_3_0.woff2') format('woff2'),
+        url('https://cdn.jsdelivr.net/gh/imuriasp/publico@main/Veridas/fonts/38F797_3_0.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
 }
 @font-face {
   font-family: 'AvantGardeGothicITCW02Dm';
-  src: url('https://cdn.jsdelivr.net/gh/imuriasp/publico@main/Veridas/fonts/38F797_7_0.eot');
-  src: url('https://cdn.jsdelivr.net/gh/imuriasp/publico@main/Veridas/fonts/38F797_7_0.eot?#iefix') format('embedded-opentype'),
-      url('https://cdn.jsdelivr.net/gh/imuriasp/publico@main/Veridas/fonts/38F797_7_0.woff2') format('woff2'),
-      url('https://cdn.jsdelivr.net/gh/imuriasp/publico@main/Veridas/fonts/38F797_7_0.woff') format('woff'),
-      url('https://cdn.jsdelivr.net/gh/imuriasp/publico@main/Veridas/fonts/38F797_7_0.ttf') format('truetype'),
-      url('https://cdn.jsdelivr.net/gh/imuriasp/publico@main/Veridas/fonts/38F797_7_0.svg#wf') format('svg');
+  src:  url('https://cdn.jsdelivr.net/gh/imuriasp/publico@main/Veridas/fonts/38F797_7_0.woff2') format('woff2'),
+        url('https://cdn.jsdelivr.net/gh/imuriasp/publico@main/Veridas/fonts/38F797_7_0.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
 }
 
 :root {
-  --global-font-family-primary: "AvantGardeGothicITCW01Bk";
+  --global-font-family-primary: "Oswald";
   --global-font-family-secondary: "AvantGardeGothicITCW02Dm";
 }
 
