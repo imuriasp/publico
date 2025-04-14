@@ -26,7 +26,6 @@
   --specific-color-content-dark: #383838;
   --color-primary-main: #F9B000;
   
-  --global-spacing-size-0: 5rem;
   --global-spacing-size-15: 0;/* padding */
   /* border color */
   --layout-frame-color: transparent;
@@ -46,7 +45,9 @@
   border: 2px solid red;
 }
  */
+vd-text {
 
+}
 vd-flex {
   background-color: white;
 }
