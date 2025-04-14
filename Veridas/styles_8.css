@@ -24,7 +24,9 @@
   --global-font-family-secondary: "AvantGardeGothicITCW02Dm";
   --layout-background-color: transparent;
   --specific-color-content-dark: #383838;
-
+  --color-primary-main: #F9B000;
+  
+  --global-spacing-size-0: 5rem;
   --global-spacing-size-15: 0;/* padding */
   /* border color */
   --layout-frame-color: transparent;
@@ -40,13 +42,13 @@
     --global-elevation-level-01: 0px 0px 0px 1px #D9D9D9; /* sombra */
 }
 
-:host {
+/* :host {
   border: 2px solid red;
 }
-
+ */
 
 vd-flex {
-  background-color: green;
+  background-color: white;
 }
 vd-feedback::part(feedback) {
   background-color: #eb3d1e;
@@ -56,7 +58,24 @@ vd-feedback::part(feedback) {
 }
 
 
-
+/* boton verificar identidad */
+.vd-guide-modal__submit {
+  background: #F9B000;
+  border-radius: var(--radius-sm);
+  border: none;
+  box-shadow: var(--shadow-sm);
+  color: var(--color-neutral00);
+  cursor: pointer;
+  font-family: var(--typography-body-normal-font-family);
+  font-size: calc(var(--main-sdk-height) * .04);
+  margin-bottom: calc(var(--main-sdk-width) * .02);
+  margin-top: calc(var(--main-sdk-width) * .02);
+  outline: 0;
+  padding: calc(var(--main-sdk-height) * .04);
+  white-space: nowrap;
+  width: calc(var(--main-sdk-height) * .9);
+  transition: ease-in .2s;
+}
 
 
 /* SDK Document */
